@@ -54,3 +54,62 @@ step2:-Initialise variables\
 step3:-process scheduling\
 step4:-display output\
 step5:-End of program\
+
+7.cprogram to implement nonpreemptive sjf algorithm\
+Algorithm:-\
+step1:-Input(Enter number of process)\
+step2:-sort the process based on their burst time in ascending order\
+step3:-Initialisation step4:-for each process from 1 to n\
+step5:-calculate average waiting time\
+step6:-calculate average turnaroundtime\
+step7:-End of program\
+
+8.cprogram to simulate roundrobin scheduling algorithm with c\
+Algorithm:-\
+step1:-Input(number of processes)\
+step2:-Initialise an empty queue to store process\
+step3:-while there are processed in queue or any process has remaining bursttime\
+step4:-End of program\
+
+11.c program for multithreading Algoritm:-\
+step1:-Include necessary header file\
+step2:-Define the threadfunction
+step3:-create threads\
+step4:-join threads\
+step5:-compile and run program\
+step6:-End of program\
+
+12.cprogram for Dining Philosophers problem\
+Algorithm:-\
+step1:-Initialization\
+step2:-philospher behaviour\
+step3:-Handling forks\
+step4:-synchronization\
+step5:-Implementation using loop\
+step6:-End of program\
+
+13.c program for various memory allocation strategies\
+Algorithm:-\
+step1:-Input(enter memorysize)\
+step2:-Initialisation(set found flag to 0)\
+step3:-loop through memoryblocks\
+step4:-if 'found'flag is 1,memory allocated successfully\
+step5:-if 'found'flag is 0,not enough space is available for allocation\
+step6:-End of program\
+
+14.c program for organisefile using singlelevel directory\
+Algorithm:-\
+step1:-file structure\
+step2:-Directory structure(not needed for single level directory)\
+step3:-operation(like create newfile,delete file,list file,search file,Exit)\
+step4:-Enter the operation to perform step5:-file can be created ,listed,updated it continue till exit\
+step6:-End of program\
+
+15.c program to organize file using two level directory structure\
+Algorithm:-\
+step1:-file structure(structfile contain attributes suchas name,size)\
+step2:-struct directory(directory attribute suchas name,list of files)\
+step3:-Enter directoryname and parent directory\
+step4:-perform operation(create directory,create file,delete file,listfile,exit)\
+step5:-Initialize filesystem\
+step6:-End of program\
