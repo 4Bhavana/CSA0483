@@ -1,20 +1,21 @@
 1.system calls currently running process and parent display same.\
 Algorithm:-\
-step1:Include necessary header files like stdio.h,stdlib.h,unistd.h,sys/types.h\
-step2:-use the fork()system call to create new process\
-step3:-check if forking is successfull\
-step4:-GetprocessID's(use getpid()systemcallto get process ID of child process and parentprocess)\
+step1:Include the header files like stdio.h,stdlib.h,unistd.h,sys/types.h\
+step2:-check if forking is successfull\
+step3:-GetprocessID's(use getpid())\
+step4:-get the parent id(use getpid())\
 step5:-Display process IDs(print process ID and parent processID)\
-step6:-End of Algorithm\
+step6:-End Algorithm\
 
 2.systemcall to copy content from one file to another file\
 Algorithm:-\
 step1:-Include libraries(headerfiles like stdio.h,stdlib.h,fcntl.h,unistd.h)\
 step2:-open source and destination files\
+step3:-use two files one for reading and for writing\
 step3:-check if files are opened successfully\
 step4:-Read content from source file\
-step5:-write content to destination file\
-step6:-close file(use 'close()'system callto close both source an destination file)\
+step5:-copy the contents to the file\
+step6:-close 2 file(use 'close()')\
 step7:-End of Algorithm\
 
 3.Design CPU scheduling algorithm with c using FCFStechnique\
@@ -22,11 +23,11 @@ a.All process are activated time 0\
 b.Assume no process in I/O devices\
 Algorithm:-\
 step1:-Include libraries(header file like stdio.h)\
-step2:-Define process structure\
-step3:-Input process data\
-step4:-calculate waiting time and turnaroundtime\
+step2:-get input from the user for no:of processors and burst time\
+step3:-use for loop\
+step4:-calculate waiting time and turnaroundtime by using formula\
 step5:-calculate average waiting time and turnaroundtime\
-step6:-Display process information\
+step6:-display the data\
 step7:-End of Algorithm\
 
 4.ccode for scheduling select waiting process with executiontime to execute next\
